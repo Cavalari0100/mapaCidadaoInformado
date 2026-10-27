@@ -1,0 +1,200 @@
+[
+    {
+        "EMPRESA": "1",
+        "CODIGO": "0202",
+        "DESCRICAO": "GABINETE DO PREFEITO E DEPENDÊNCIAS",
+        "EMPENHADO": "4618409,15",
+        "LIQUIDADO": "4340663,88",
+        "PAGO": "4258159,2",
+        "DOTAC": "4333733,87",
+        "ALTDO": "496223,55",
+        "DOTACAO_ATUALIZADA": "4829957,42"
+    },
+    {
+        "EMPRESA": "1",
+        "CODIGO": "0203",
+        "DESCRICAO": "DEPARTAMENTO DE ADMINISTRAÇÃO E FINANÇAS",
+        "EMPENHADO": "7167417,21",
+        "LIQUIDADO": "7000855,59",
+        "PAGO": "6937317,67",
+        "DOTAC": "7042665,56",
+        "ALTDO": "653739,25",
+        "DOTACAO_ATUALIZADA": "7696404,81"
+    },
+    {
+        "EMPRESA": "1",
+        "CODIGO": "0204",
+        "DESCRICAO": "DEPTO.DE OBRAS E SERVIÇOS PUBLICOS",
+        "EMPENHADO": "16360604,48",
+        "LIQUIDADO": "14163709,41",
+        "PAGO": "13955841,14",
+        "DOTAC": "10919546,96",
+        "ALTDO": "5805529,98",
+        "DOTACAO_ATUALIZADA": "16725076,94"
+    },
+    {
+        "EMPRESA": "1",
+        "CODIGO": "0205",
+        "DESCRICAO": "DEPTO.DE AGRICULTURA E ABASTECIMENTO",
+        "EMPENHADO": "504992,23",
+        "LIQUIDADO": "497405,63",
+        "PAGO": "489601,45",
+        "DOTAC": "367000",
+        "ALTDO": "345967,42",
+        "DOTACAO_ATUALIZADA": "712967,42"
+    },
+    {
+        "EMPRESA": "1",
+        "CODIGO": "0206",
+        "DESCRICAO": "DEPARTAMENTO DE EDUCAÇÃO",
+        "EMPENHADO": "74207078,13",
+        "LIQUIDADO": "72127142,49",
+        "PAGO": "69634617,89",
+        "DOTAC": "70348982,68",
+        "ALTDO": "8961680,99",
+        "DOTACAO_ATUALIZADA": "79310663,67"
+    },
+    {
+        "EMPRESA": "1",
+        "CODIGO": "0207",
+        "DESCRICAO": "DEPARTAMENTO DE CULTURA",
+        "EMPENHADO": "1350136,61",
+        "LIQUIDADO": "1338544,45",
+        "PAGO": "1142231,34",
+        "DOTAC": "933500",
+        "ALTDO": "493455,29",
+        "DOTACAO_ATUALIZADA": "1426955,29"
+    },
+    {
+        "EMPRESA": "1",
+        "CODIGO": "0208",
+        "DESCRICAO": "DEPARTAMENTO DE TURISMO",
+        "EMPENHADO": "9994866,91",
+        "LIQUIDADO": "8219227,72",
+        "PAGO": "8179323,14",
+        "DOTAC": "7098209,96",
+        "ALTDO": "7267996,04",
+        "DOTACAO_ATUALIZADA": "14366206"
+    },
+    {
+        "EMPRESA": "1",
+        "CODIGO": "0209",
+        "DESCRICAO": "DEPARTAMENTO DE ESPORTE E LAZER",
+        "EMPENHADO": "3664916,51",
+        "LIQUIDADO": "3485982,25",
+        "PAGO": "3438306,15",
+        "DOTAC": "2794877,86",
+        "ALTDO": "1182344,33",
+        "DOTACAO_ATUALIZADA": "3977222,19"
+    },
+    {
+        "EMPRESA": "1",
+        "CODIGO": "0210",
+        "DESCRICAO": "DEPARTAMENTO DE SAÚDE",
+        "EMPENHADO": "82850939,9200001",
+        "LIQUIDADO": "76821535,14",
+        "PAGO": "74723400,8899999",
+        "DOTAC": "58946838,85",
+        "ALTDO": "29899047,19",
+        "DOTACAO_ATUALIZADA": "88845886,04"
+    },
+    {
+        "EMPRESA": "1",
+        "CODIGO": "0211",
+        "DESCRICAO": "DEPARTAMENTO DE ASSISTENCIA SOCIAL",
+        "EMPENHADO": "7365401,31",
+        "LIQUIDADO": "7069313,62",
+        "PAGO": "6835236,7",
+        "DOTAC": "7100250,54",
+        "ALTDO": "950259,16",
+        "DOTACAO_ATUALIZADA": "8050509,7"
+    },
+    {
+        "EMPRESA": "1",
+        "CODIGO": "0212",
+        "DESCRICAO": "DEPTO.SEGURANÇA, TRANSITO E TRANSPORTE",
+        "EMPENHADO": "2462444,51",
+        "LIQUIDADO": "2116790,97",
+        "PAGO": "2078629,12",
+        "DOTAC": "2583542,6",
+        "ALTDO": "318250,15",
+        "DOTACAO_ATUALIZADA": "2901792,75"
+    },
+    {
+        "EMPRESA": "1",
+        "CODIGO": "0213",
+        "DESCRICAO": "DEPTO.DE ASSUNTOS JURIDICOS",
+        "EMPENHADO": "916351,14",
+        "LIQUIDADO": "896298,03",
+        "PAGO": "879418,72",
+        "DOTAC": "977500",
+        "ALTDO": "52000",
+        "DOTACAO_ATUALIZADA": "1029500"
+    },
+    {
+        "EMPRESA": "1",
+        "CODIGO": "0214",
+        "DESCRICAO": "ENCARGOS GERAIS DO MUNICIPIO",
+        "EMPENHADO": "34359364,18",
+        "LIQUIDADO": "34359364,18",
+        "PAGO": "33665630,74",
+        "DOTAC": "28769278,06",
+        "ALTDO": "7007852,38",
+        "DOTACAO_ATUALIZADA": "35777130,44"
+    },
+    {
+        "EMPRESA": "1",
+        "CODIGO": "0215",
+        "DESCRICAO": "DEPARTAMENTO MUNICIPAL DE MEIO AMBIENTE E PROJETOS ESPECIAIS",
+        "EMPENHADO": "7236819,57",
+        "LIQUIDADO": "5524547,78",
+        "PAGO": "5450330,64",
+        "DOTAC": "7002239",
+        "ALTDO": "1085941,95",
+        "DOTACAO_ATUALIZADA": "8088180,95"
+    },
+    {
+        "EMPRESA": "1",
+        "CODIGO": "0216",
+        "DESCRICAO": "DEPARTAMENTO DE PLANEJAMENTO",
+        "EMPENHADO": "380675,3",
+        "LIQUIDADO": "359837,71",
+        "PAGO": "346949,62",
+        "DOTAC": "407300",
+        "ALTDO": "23405,2",
+        "DOTACAO_ATUALIZADA": "430705,2"
+    },
+    {
+        "EMPRESA": "1",
+        "CODIGO": "0217",
+        "DESCRICAO": "DEPARTAMENTO DE INDUSTRIA, COMÉRCIO E SERVIÇOS",
+        "EMPENHADO": "784805,96",
+        "LIQUIDADO": "772874,39",
+        "PAGO": "746628,49",
+        "DOTAC": "727400",
+        "ALTDO": "147897,86",
+        "DOTACAO_ATUALIZADA": "875297,86"
+    },
+    {
+        "EMPRESA": "1",
+        "CODIGO": "0218",
+        "DESCRICAO": "DEPARTAMENTO DE RECURSOS HUMANOS",
+        "EMPENHADO": "391994,18",
+        "LIQUIDADO": "384324,68",
+        "PAGO": "382122,38",
+        "DOTAC": "421300",
+        "ALTDO": "52000",
+        "DOTACAO_ATUALIZADA": "473300"
+    },
+    {
+        "EMPRESA": "1",
+        "CODIGO": "0219",
+        "DESCRICAO": "DEPARTAMENTO DE URBANISMO E HABITAÇÃO",
+        "EMPENHADO": "1939350,14",
+        "LIQUIDADO": "1824779,26",
+        "PAGO": "1810619,12",
+        "DOTAC": "2020348,19",
+        "ALTDO": "526565,18",
+        "DOTACAO_ATUALIZADA": "2546913,37"
+    }
+]
