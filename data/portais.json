@@ -52,5 +52,14 @@
     "url": "https://scpi.assis.sp.gov.br:8079/transparencia/",
     "abrangencia": "Municipal",
     "orgao": "Prefeitura Municipal de Assis"
+  },
+  {
+    "id": "portal-transparencia-maracai",
+    "nome": "Portal da Transparência de Maracaí",
+    "categoria": "Transparência",
+    "descricao": "Acesse informações sobre receitas, despesas, licitações, contratos e gestão pública do município.",
+    "url": "http://138.122.40.102:8079/transparencia/",
+    "abrangencia": "Municipal",
+    "orgao": "Prefeitura Municipal de Maracaí"
   }
 ]
