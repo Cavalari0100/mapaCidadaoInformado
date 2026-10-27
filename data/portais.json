@@ -1,0 +1,56 @@
+[
+  {
+    "id": "portal-transparencia-federal",
+    "nome": "Portal da Transparência do Governo Federal",
+    "categoria": "Transparência",
+    "descricao": "Consulte despesas, receitas, transferências e outras informações da administração pública federal.",
+    "url": "https://portaldatransparencia.gov.br/",
+    "abrangencia": "Federal",
+    "orgao": "Controladoria-Geral da União"
+  },
+  {
+    "id": "portal-dados-abertos",
+    "nome": "Portal Brasileiro de Dados Abertos",
+    "categoria": "Dados abertos",
+    "descricao": "Encontre conjuntos de dados públicos disponibilizados por órgãos governamentais.",
+    "url": "https://dados.gov.br/",
+    "abrangencia": "Federal",
+    "orgao": "Governo Federal"
+  },
+  {
+    "id": "acesso-informacao",
+    "nome": "Acesso à Informação",
+    "categoria": "Acesso à informação",
+    "descricao": "Conheça orientações e mecanismos para solicitar informações públicas.",
+    "url": "https://www.gov.br/acessoainformacao/pt-br",
+    "abrangencia": "Federal",
+    "orgao": "Governo Federal"
+  },
+  {
+    "id": "ibge-cidades",
+    "nome": "IBGE Cidades",
+    "categoria": "Indicadores",
+    "descricao": "Consulte indicadores demográficos, econômicos e sociais dos municípios brasileiros.",
+    "url": "https://cidades.ibge.gov.br/",
+    "abrangencia": "Nacional",
+    "orgao": "IBGE"
+  },
+  {
+    "id": "portal-transparencia-paraguacu-paulista",
+    "nome": "Portal da Transparência de Paraguaçu Paulista",
+    "categoria": "Transparência",
+    "descricao": "Acesse informações sobre receitas, despesas, licitações, contratos e gestão fiscal do município.",
+    "url": "http://sistemas2.eparaguacu.sp.gov.br:8079/transparencia/",
+    "abrangencia": "Municipal",
+    "orgao": "Prefeitura Municipal de Paraguaçu Paulista"
+  },
+  {
+    "id": "portal-transparencia-assis",
+    "nome": "Portal da Transparência de Assis",
+    "categoria": "Transparência",
+    "descricao": "Acesse informações sobre receitas, despesas, licitações, folha de pagamento e prestação de contas do município.",
+    "url": "https://scpi.assis.sp.gov.br:8079/transparencia/",
+    "abrangencia": "Municipal",
+    "orgao": "Prefeitura Municipal de Assis"
+  }
+]

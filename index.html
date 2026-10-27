@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Mapa Cidadão Informado — facilitando o acesso do cidadão a informações e portais públicos brasileiros.">
+
+    <title>Mapa Cidadão Informado</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container header-content">
+
+            <a href="index.html" class="logo">
+                <span class="logo-icon">◉</span>
+                <span>Mapa Cidadão Informado</span>
+            </a>
+
+            <nav class="navigation">
+                <a href="#explorar">Explorar</a>
+                <a href="#como-funciona">Como funciona</a>
+                <a href="#contribuir">Contribua</a>
+                <a href="#roadmap">Roadmap</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero">
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <span class="eyebrow">
+                        PROJETO OPEN SOURCE
+                    </span>
+
+                    <h1>
+                        Informação pública,
+                        <span>mais fácil de encontrar.</span>
+                    </h1>
+
+                    <p>
+                        Um projeto comunitário para facilitar o acesso a
+                        portais, dados e informações públicas brasileiras.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#explorar" class="button button-primary">
+                            Explorar informações
+                        </a>
+
+                        <a href="#contribuir" class="button button-secondary">
+                            Quero contribuir
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="hero-card">
+
+                    <div class="card-header">
+                        <span>🔎</span>
+                        <span>Encontre uma informação</span>
+                    </div>
+
+                    <form class="search-box" id="searchForm">
+                        <input type="search" id="searchInput" placeholder="Ex.: transparência, IBGE, dados abertos"
+                            aria-label="Pesquisar portais públicos">
+                        <button type="submit">Buscar</button>
+                    </form>
+
+                    <small>Pesquise por nome, categoria, órgão ou tipo de informação.</small>
+
+                </div>
+
+            </div>
+
+        </section>
+        <section class="section" id="resultados">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">CATÁLOGO PÚBLICO</span>
+                    <h2>Fontes públicas em destaque</h2>
+                    <p>
+                        Encontre portais oficiais para consultar informações,
+                        indicadores e dados públicos brasileiros.
+                    </p>
+                </div>
+
+                <p id="searchStatus" role="status" aria-live="polite">
+                    Carregando portais...
+                </p>
+
+                <div class="cards-grid" id="portalResults" aria-live="polite"></div>
+            </div>
+        </section>
+
+
+        <!-- EXPLORAR -->
+        <section id="explorar" class="section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="eyebrow">
+                        EXPLORE
+                    </span>
+
+                    <h2>
+                        Por onde começar?
+                    </h2>
+
+                    <p>
+                        Encontre os principais caminhos para acessar
+                        informações públicas.
+                    </p>
+
+                </div>
+
+
+                <div class="cards-grid">
+
+                    <article class="info-card">
+
+                        <div class="card-icon">🏛️</div>
+
+                        <h3>
+                            Portais da Transparência
+                        </h3>
+
+                        <p>
+                            Consulte informações sobre receitas, despesas,
+                            contratos e outras informações da administração pública.
+                        </p>
+
+                        <a href="#">
+                            Saiba mais →
+                        </a>
+
+                    </article>
+
+
+                    <article class="info-card">
+
+                        <div class="card-icon">📊</div>
+
+                        <h3>
+                            Dados Abertos
+                        </h3>
+
+                        <p>
+                            Encontre conjuntos de dados públicos disponibilizados
+                            por governos e instituições.
+                        </p>
+
+                        <a href="#">
+                            Saiba mais →
+                        </a>
+
+                    </article>
+
+
+                    <article class="info-card">
+
+                        <div class="card-icon">📨</div>
+
+                        <h3>
+                            Acesso à Informação
+                        </h3>
+
+                        <p>
+                            Entenda como solicitar informações públicas por meio
+                            dos canais oficiais.
+                        </p>
+
+                        <a href="#">
+                            Saiba mais →
+                        </a>
+
+                    </article>
+
+
+                    <article class="info-card">
+
+                        <div class="card-icon">📜</div>
+
+                        <h3>
+                            Diários Oficiais
+                        </h3>
+
+                        <p>
+                            Encontre publicações oficiais, atos administrativos,
+                            contratos e outras informações.
+                        </p>
+
+                        <a href="#">
+                            Saiba mais →
+                        </a>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- COMO FUNCIONA -->
+        <section id="como-funciona" class="section section-alt">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="eyebrow">
+                        COMO FUNCIONA
+                    </span>
+
+                    <h2>
+                        O caminho até a informação.
+                    </h2>
+
+                    <p>
+                        O projeto não substitui os portais oficiais.
+                        Ele ajuda você a encontrá-los.
+                    </p>
+
+                </div>
+
+
+                <div class="steps">
+
+                    <div class="step">
+
+                        <span class="step-number">
+                            01
+                        </span>
+
+                        <div>
+                            <h3>
+                                Escolha o que procura
+                            </h3>
+
+                            <p>
+                                Identifique o município, órgão ou tipo
+                                de informação que deseja consultar.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="step">
+
+                        <span class="step-number">
+                            02
+                        </span>
+
+                        <div>
+                            <h3>
+                                Encontre o caminho
+                            </h3>
+
+                            <p>
+                                O projeto organiza os principais portais
+                                e canais oficiais relacionados à informação.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="step">
+
+                        <span class="step-number">
+                            03
+                        </span>
+
+                        <div>
+                            <h3>
+                                Consulte a fonte oficial
+                            </h3>
+
+                            <p>
+                                Acesse a fonte responsável pela informação
+                                e verifique os dados diretamente.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTRIBUIÇÃO -->
+        <section id="contribuir" class="section">
+
+            <div class="container contribution">
+
+                <div>
+
+                    <span class="eyebrow">
+                        OPEN SOURCE
+                    </span>
+
+                    <h2>
+                        Este mapa é construído por pessoas.
+                    </h2>
+
+                    <p>
+                        Encontrou um portal que ainda não está aqui?
+                        Conhece uma fonte oficial? Sabe programar?
+                    </p>
+
+                    <p>
+                        O projeto é aberto e qualquer pessoa pode contribuir.
+                    </p>
+
+                </div>
+
+
+                <div class="contribution-list">
+
+                    <div>
+                        <strong>👤 Cidadão</strong>
+                        <span>Indique portais e informações.</span>
+                    </div>
+
+                    <div>
+                        <strong>💻 Desenvolvedor</strong>
+                        <span>Melhore o código e crie funcionalidades.</span>
+                    </div>
+
+                    <div>
+                        <strong>🔎 Colaborador</strong>
+                        <span>Ajude a verificar e organizar informações.</span>
+                    </div>
+
+                    <a href="https://github.com/Cavalari0100/mapaCidadaoInformado" class="button button-primary"
+                        target="_blank" rel="noopener noreferrer">
+                        Contribuir pelo GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ROADMAP -->
+        <section id="roadmap" class="section section-alt">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="eyebrow">
+                        ROADMAP
+                    </span>
+
+                    <h2>
+                        Estamos apenas começando.
+                    </h2>
+
+                    <p>
+                        O projeto será construído aos poucos, com a ajuda da comunidade.
+                    </p>
+
+                </div>
+
+
+                <div class="roadmap">
+
+                    <div class="roadmap-item active">
+
+                        <span class="roadmap-status">
+                            AGORA
+                        </span>
+
+                        <h3>
+                            Guia público
+                        </h3>
+
+                        <p>
+                            Criar a estrutura inicial, reunir portais
+                            e explicar como encontrar informações.
+                        </p>
+
+                    </div>
+
+
+                    <div class="roadmap-item">
+
+                        <span class="roadmap-status">
+                            PRÓXIMO
+                        </span>
+
+                        <h3>
+                            Busca
+                        </h3>
+
+                        <p>
+                            Facilitar a busca por municípios, órgãos
+                            e categorias de informação.
+                        </p>
+
+                    </div>
+
+
+                    <div class="roadmap-item">
+
+                        <span class="roadmap-status">
+                            FUTURO
+                        </span>
+
+                        <h3>
+                            Comunidade
+                        </h3>
+
+                        <p>
+                            Expandir o cadastro de municípios e
+                            facilitar contribuições pelo GitHub.
+                        </p>
+
+                    </div>
+
+
+                    <div class="roadmap-item">
+
+                        <span class="roadmap-status">
+                            FUTURO
+                        </span>
+
+                        <h3>
+                            Dados
+                        </h3>
+
+                        <p>
+                            Explorar integrações com APIs e bases
+                            de dados públicos.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PRINCÍPIO -->
+        <section class="principle">
+
+            <div class="container">
+
+                <p>
+                    “Informação pública existe.
+                    Nosso objetivo é facilitar o caminho até ela.”
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div>
+
+                <strong>
+                    🗺️ Mapa Cidadão Informado
+                </strong>
+
+                <p>
+                    Projeto independente e open source.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="#como-funciona">
+                    Sobre o projeto
+                </a>
+
+                <a href="#contribuir">
+                    Contribuir
+                </a>
+
+                <a href="https://github.com/Cavalari0100/mapaCidadaoInformado" target="_blank"
+                    rel="noopener noreferrer">
+                    Contribuir pelo GitHub
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="container footer-bottom">
+
+            <p>
+                Este projeto não representa qualquer governo,
+                partido político ou órgão público.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="js/app.js" defer></script>
+</body>
+
+</html>
