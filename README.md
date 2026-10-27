@@ -50,7 +50,7 @@ Inicialmente, o projeto será baseado em informações e links para fontes públ
 Por exemplo:
 
 ```text
-Paraguaçu Paulista - SP
+Cidade X, Estado Y
 
 ├── 🏛️ Prefeitura
 ├── 💰 Portal da Transparência
